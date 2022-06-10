@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/drawable/ambient_cardview.xml" value="0.102" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/drawable/bg_rounded.xml" value="0.145" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.1" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/drawable/ic_launcher_background.xml" value="0.102" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/drawable/image_shadow.xml" value="0.1" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/drawable/poster_corner.xml" value="0.102" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/drawable/rounded_button.xml" value="0.102" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/discover_item_layout.xml" value="0.22" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/discover_list_layout.xml" value="0.14130434782608695" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/genre_item_layout.xml" value="0.22" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/genre_item_list.xml" value="0.14130434782608695" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/genre_list_layout.xml" value="0.14130434782608695" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/movie_details_layout.xml" value="0.14130434782608695" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/movie_paging_state_layout.xml" value="0.14130434782608695" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/movie_review_item_layout.xml" value="0.14130434782608695" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/app/src/main/res/layout/root.xml" value="0.14130434782608695" />
+        <entry key="..\:/BITC/Android/7-6-2022/TheMovieDB/common/src/main/res/layout/dummy.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
