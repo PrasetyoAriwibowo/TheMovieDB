@@ -52,6 +52,7 @@ class DiscoverFragment : BaseFragment<DiscoverViewModel, DiscoverListLayoutBindi
                 binding.progressBar.visibility = View.GONE
             }
         }
+
         binding.retryButton.setOnClickListener {
             adapter.retry()
         }
