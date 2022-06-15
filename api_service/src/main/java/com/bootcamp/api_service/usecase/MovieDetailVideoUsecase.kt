@@ -20,7 +20,6 @@ class MovieDetailVideoUsecase(
             send(AppResponse.loading())
             try {
 
-
             val dataMovieDetails = movieDetailsService.getMovieDetails(movieId)
             val dataMovieVideo = movieVideoService.getMovieVideo(movieId)
 

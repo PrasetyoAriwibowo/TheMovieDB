@@ -23,6 +23,7 @@ abstract class BaseFragment<VM : BaseViewModel, Binding : ViewDataBinding> : Fra
         savedInstanceState: Bundle?
     ): View? {
         binding = DataBindingUtil.inflate<Binding>(inflater, layoutResourceId, container, false)
+        binding.setVariable(BR.vm, vm)
         binding.lifecycleOwner = this
         initBinding(binding)
         return binding.root

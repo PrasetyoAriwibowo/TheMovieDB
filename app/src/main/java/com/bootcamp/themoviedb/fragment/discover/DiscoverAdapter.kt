@@ -2,6 +2,7 @@ package com.bootcamp.themoviedb.fragment.discover
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
@@ -15,6 +16,7 @@ class DiscoverAdapter(
 
     override fun onBindViewHolder(holder: DiscoverItemViewHolder, position: Int) {
         holder.binding.data = getItem(position)
+        holder.binding.cardView.animation = AnimationUtils.loadAnimation(holder.itemView.context, com.bootcamp.themoviedb.R.anim.animation)
         holder.binding.root.setOnClickListener {
             getItem(position)?.let { it ->
                 navigateToMovieDetail.invoke(it.id)

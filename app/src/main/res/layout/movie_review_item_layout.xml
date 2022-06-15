@@ -46,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@{data.content}"
+                android:justificationMode="inter_word"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/img_avatar"
                 app:layout_constraintTop_toBottomOf="@id/tv_username" />

@@ -25,14 +25,14 @@ class DiscoverMovieDataSource(
                 genres, page
             )
 
-            if (data.isSuccessful){
+            if (data.isSuccessful) {
                 data.body()?.let {
                     val nextPage = if (it.discoverMovies.isEmpty()) null else page + 1
                     return LoadResult.Page(it.discoverMovies, prevPage, nextPage)
-                }?: kotlin.run{
+                } ?: kotlin.run {
                     return LoadResult.Page(arrayListOf(), prevPage, null)
                 }
-            }else{
+            } else {
                 return LoadResult.Error(Exception("Error Backend: ${data.code()}"))
             }
 

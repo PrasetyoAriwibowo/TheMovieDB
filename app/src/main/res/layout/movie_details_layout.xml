@@ -157,6 +157,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="16dp"
                         android:layout_marginTop="4dp"
+                        android:justificationMode="inter_word"
                         android:textColor="@color/dark_grey"
                         android:text="@{data.overview}"
                         app:layout_constraintStart_toStartOf="parent"
